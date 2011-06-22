@@ -1,0 +1,74 @@
+#body {
+  width: 800px;
+  text-align:left;
+  margin: 0 auto;
+  font-family: 'Arial', arial, serif;
+}
+
+a, a:visited {
+  color: #000099;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EE0000;
+  text-decoration: none;
+}
+
+#topmenu a, #topmenu a:visited {
+  color: #000099;
+}
+
+#topmenu a:hover {
+  color: #EE0000;
+}
+
+#header-name { 
+  font-family: 'Lobster', arial, serif; 
+  font-size: 60px;
+}
+
+#header-title { 
+  font-family: 'Pacifico', arial, serif;
+  margin-top: -10px;
+  font-size: 30px;
+}
+
+div.menu{
+  margin-top: 25px;
+  font-size: 20px;
+  font-family: 'Allerta Stencil', arial, serif; 
+  text-align:center;
+}
+
+div.title{
+  font-family: 'Permanent Marker', arial, serif; 
+  font-size: 40px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+div.title2{
+  font-family: 'Chewy', arial, serif; 
+  font-size: 25px;
+  text-decoration:underline;
+  text-align:left;
+}
+
+div.title3{
+  font-family: 'Allerta Stencil', arial, serif; 
+  margin-top: 15px;
+  font-size: 20px;
+  text-align:left;
+}
+
+div.paragraph {
+  font-family: 'Arial', arial, serif;
+  font-size: 16px;
+  text-align:justify;
+}
+
+div.copyright {
+  font-family: "Chewy", arial, serif;
+  font-size:18px;
+}
