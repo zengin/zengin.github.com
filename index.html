@@ -29,12 +29,19 @@
 
 <script language="JavaScript">
 
-//load images
+//pre-load images
 if(document.images){
-	img_me_colored = new Image();
-	img_me_colored.src = "images/me_colored.jpg"
-	img_me_bw = new Image();
-	img_me_bw.src = "images/me_bw.jpg"
+	var imageNames = ["me", "bilkent", "bilkent2", "max_planck", "eurecom" ];
+	for( i = 0; i < imageNames.length; i++){
+		new Image().src = "images/" + imageNames[i] + "_colored.jpg";
+		new Image().src = "images/" + imageNames[i] + "_bw.jpg";
+	}
+	
+	imageNames = ["tokat_fen", "omega" ];
+	for( i = 0; i < imageNames.length; i++){
+		new Image().src = "images/" + imageNames[i] + "_colored.png";
+		new Image().src = "images/" + imageNames[i] + "_bw.png";
+	}
 }
 
 function handleMouseOver(imageName, extension) { 
