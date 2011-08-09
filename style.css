@@ -66,6 +66,8 @@ div.paragraph {
   font-family: 'Arial', arial, serif;
   font-size: 16px;
   text-align:justify;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 div.copyright {
