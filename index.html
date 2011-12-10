@@ -101,7 +101,7 @@ function handleMouseOut(imageName, extension) {
 
 </tr>
 </table>
-<div class="menu" id="topmenu"><a href="#bio">Intro</a> | <a href="#experience">Experience</a> | <a href="#education">Education</a> | <a href="#contact">Contact</a> | <a href="#schedule">Schedule</a> | <a href="#coding">Coding</a></div>
+<div class="menu" id="topmenu"><a href="#bio">Intro</a> | <a href="#experience">Experience</a> | <a href="#education">Education</a> | <a href="#contact">Contact</a> | <a href="#schedule">Schedule</a></div>
 
 <div class="title" id="bio">Intro</div>
 <hr>
@@ -197,79 +197,6 @@ Postal Address: MPI-SWS, Gottlieb-Daimler-Strasse, Building 49, D-67663, Kaisers
 <div class="title" id="schedule">Schedule</div>
 <hr>
 <iframe src="https://www.google.com/calendar/embed?title=Mustafa%20Zengin%20-%20Public%20Schedule&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=mzengin88%40gmail.com&amp;color=%23A32929&amp;ctz=Europe%2FIstanbul" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-
-<div class="title" id="coding">CODING</div>
-<hr>
-<p>You can see, follow and fork my Github repositories at <a href="http://github.com/zengin" target="_blank"> github.com/zengin</a>.</p>
-
-<div class="title2">Safebook</div>
-
-<div class="paragraph">Safebook is a privacy preserving social network developed as an academic research project at EURECOM, Networking and Security Department.</div>
-<div class="paragraph">
-In Safebook, I worked on the design and implementation of local databases to keep information, generating dynamic web pages, providing message transfers from user interface level to data management and communication levels, periodic retrieval of data stored in network nodes, storing in-memory structures to databases to provide data availability, migration of the system from one machine to multiple machines, implementation of the startup script to generate keys and certificates and the basics of friendship request protocol. You can find detailed information about Safebook at <a href="http://www.safebook.eu" target="_blank">www.safebook.eu</a>. It is also an open source project and you can contribute if you want.
-</div>
-<div class="title2">Project Euler Solutions in Go (Golang)</div>
-<div class="paragraph">
-To practice Google's new programming language Go (<a href='http://www.golang.org' target='_blank'>golang.org</a>), I solved first 50 questions of Project Euler problems.
-</div>
-
-<div class="paragraph">
-You can find the problems at:<br>
-<a href='http://www.projecteuler.net' target='_blank'>projecteuler.net</a>
-</div>
-
-<div class="paragraph">
-I publish these solutions in a blog:<br>
-<a href='http://project-euler-answers-in-go.blogspot.com' target='_blank'>project-euler-answers-in-go.blogspot.com</a>
-</div>
-
-<div class="paragraph">
-My github repository to fork or retrieve the code:<br>
-<a href='http://github.com/zengin/project-euler-solutions' target='_blank'>github.com/zengin/project-euler-solutions</a>
-</div>
-<div class="title2">Colorize Scheme</div>
-<div class="paragraph">This little application applies a different coloring method on a functional
-language, Scheme. Instead of coloring keywords, it colorizes elements
-at the same depth with the same color. The purpose of the application is to make
-programmers read and keep track of the code in an easier way.</div>
-<div class="paragraph">It uses deprecated HTML tag "font" to colorize.</div>
-<div class="title3">Example input:</div>
-<pre>
-;;Depth function
-;;returns the depth of given list
-(define (depth lst)
-	(cond
-		((atom? lst) 0)
-		((null? lst) 1)
-		((list? (car lst)) (max ( + 1 (depth (car lst)))(depth (cdr lst))))
-		(else (depth (cdr lst)))
-	)
-)
-
-;;Depth helper function
-(define atom?
-	(lambda( lst) (not ( or (null? lst) (list? lst))))
-)
-</pre>
-<div class="title3">Output:</div>
-<pre>
-<font color=#000000><b>;;Depth function</b></font> 
-<font color=#000000><b>;;returns the depth of given list</b></font> 
-<font color=#000099>(define <font color=#990000>(depth lst)</font> 
-	<font color=#990000>(cond
-		<font color=#009900>(<font color=#000000>(atom? lst)</font> 0)</font> 
-		<font color=#009900>(<font color=#000000>(null? lst)</font> 1)</font> 
-		<font color=#009900>(<font color=#000000>(list? <font color=#000099>(car lst)</font>)</font> <font color=#000000>(max <font color=#000099>( + 1 <font color=#990000>(depth <font color=#009900>(car lst)</font>)</font>)</font><font color=#000099>(depth <font color=#990000>(cdr lst)</font>)</font>)</font>)</font> 
-		<font color=#009900>(else <font color=#000000>(depth <font color=#000099>(cdr lst)</font>)</font>)</font> 
-	)</font> 
-)</font> 
- 
-<font color=#000000><b>;;Depth helper function</b></font> 
-<font color=#000099>(define atom?
-	<font color=#990000>(lambda<font color=#009900>( lst)</font> <font color=#009900>(not <font color=#000000>( or <font color=#000099>(null? lst)</font> <font color=#000099>(list? lst)</font>)</font>)</font>)</font> 
-)</font>
-</pre>
 
 <hr>
 <div class="copyright">Designed by Mustafa Zengin, using <a href="http://en.wikipedia.org/wiki/KISS_principle" target="_blank">KISS principle</a> & <a href="http://www.google.com/webfonts" target="_blank">Google Web Fonts</a> &copy; 2011, Thanks to <a href="http://www.github.com" target="_blank">github</a> for hosting :)</div>
