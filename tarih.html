@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>
+      ...:::!!!:::...
+    </title>
+    <style>
+      body
+      {
+        background-color: #0000FF;
+      }
+      div
+      {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span id="id5"></span> :
+      <span id="id4"></span> :
+      <span id="id3"></span> :
+      <span id="id2"></span> :
+      <span id="id1"></span>
+    </div>
+    <script type="text/javascript">
+      var tarih = new Date(Date.UTC(2016, 8, 17, 16, 0, 0));
+      var values = new Array(5), multiplier = [1000, 60, 60, 24, 7], i;
+
+      function updateField(id, value)
+      {
+        document.getElementById(id).innerHTML = value;
+      }
+      
+      function update()
+      {
+        values[0] = parseInt((tarih - Date.now()) / multiplier[0]);
+        for (i = 1; i < values.length; i++)
+        {
+          values[i] = parseInt(values[i - 1] / multiplier[i]);
+          updateField("id" + i, values[i - 1] % multiplier[i]);
+        }
+        
+        updateField("id5", values[4]);
+      }
+      
+      setInterval(update, 100);
+    </script>
+  </body>
+</html>
