@@ -25,6 +25,10 @@
       <span id="id2"></span> :
       <span id="id1"></span>
     </div>
+    <br />
+    <div>
+      <span id="id6"></span>
+    </div>
     <script type="text/javascript">
       var tarih = new Date(Date.UTC(2016, 8, 17, 16, 0, 0));
       var values = new Array(5), multiplier = [1000, 60, 60, 24, 7], i;
@@ -44,6 +48,7 @@
         }
         
         updateField("id5", values[4]);
+        updateField("id6", values[3]);
       }
       
       setInterval(update, 100);
