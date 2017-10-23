@@ -47,7 +47,7 @@ div.menu {
 
 div.title {
     font-family: 'Allerta Stencil', arial, serif;
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 40px;
     text-align: center;
 }
@@ -58,6 +58,10 @@ div.title2 {
     text-align: left;
     margin-top: 25px;
     font-weight: bold;
+    border-radius: 20px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    text-align: center;
 }
 
 div.title3 {
@@ -69,10 +73,12 @@ div.title3 {
 
 div.paragraph {
     font-family: 'Arial', arial, serif;
-    font-size: 20px;
+    font-size: 21px;
     text-align: justify;
+    text-indent: 25px;
     margin-bottom: 15px;
     margin-top: 15px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 div.copyright {
@@ -84,9 +90,16 @@ div.copyright {
 div.details {
     margin-top: 10px;
     margin-left: 40px;
-    font-size: 20px;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.location {
+    margin-top: 4px;
+    text-align: center;
 }
 
 div.date {
-    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: lighter;
 }
