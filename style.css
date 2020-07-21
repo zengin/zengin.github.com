@@ -56,11 +56,8 @@ div.title2 {
     font-family: 'Consolas, Monaco', arial, serif;
     font-size: 20px;
     text-align: left;
-    margin-top: 25px;
     font-weight: bold;
     border-radius: 20px;
-    background-color: lightblue;
-    border: 2px solid darkblue;
     text-align: center;
 }
 
@@ -69,6 +66,15 @@ div.title3 {
     margin-top: 15px;
     font-size: 20px;
     text-align: left;
+}
+
+div.entry {
+    border: 2px solid darkblue;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 5px;
 }
 
 div.paragraph {
@@ -86,12 +92,12 @@ div.copyright {
     font-size: 18px;
 }
 
-
 div.details {
-    margin-top: 10px;
-    margin-left: 40px;
+    margin: 10px 10px 10px 10px;
+    padding-top: 10px;
     font-size: 21px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Helvetica', arial, serif;
+    border-top: 2px solid;
 }
 
 div.location {
