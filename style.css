@@ -28,32 +28,32 @@ div.header {
 }
 
 #header-name {
-    font-family: 'Lobster', arial, serif;
+    font-family: arial, serif;
     font-size: 60px;
 }
 
 #header-title {
-    font-family: 'Pacifico', arial, serif;
-    margin-top: -10px;
+    font-family: arial, serif;
+    margin-top: 10px;
     font-size: 30px;
 }
 
 div.menu {
     margin-top: 25px;
     font-size: 20px;
-    font-family: 'Allerta Stencil', arial, serif;
+    font-family: arial, serif;
     text-align: center;
 }
 
 div.title {
-    font-family: 'Allerta Stencil', arial, serif;
+    font-family: arial, serif;
     font-size: 35px;
     margin-top: 40px;
     text-align: center;
 }
 
 div.title2 {
-    font-family: 'Consolas, Monaco', arial, serif;
+    font-family: arial, serif;
     font-size: 20px;
     text-align: left;
     font-weight: bold;
@@ -62,7 +62,7 @@ div.title2 {
 }
 
 div.title3 {
-    font-family: 'Allerta Stencil', arial, serif;
+    font-family: arial, serif;
     margin-top: 15px;
     font-size: 20px;
     text-align: left;
@@ -70,7 +70,7 @@ div.title3 {
 
 div.entry {
     border: 2px solid darkblue;
-    background-color: blanchedalmond;
+    background-color: lightcyan;
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
@@ -78,7 +78,7 @@ div.entry {
 }
 
 div.paragraph {
-    font-family: 'Arial', arial, serif;
+    font-family: arial, serif;
     font-size: 21px;
     text-align: justify;
     text-indent: 25px;
@@ -88,7 +88,7 @@ div.paragraph {
 }
 
 div.copyright {
-    font-family: "Chewy", arial, serif;
+    font-family: arial, serif;
     font-size: 18px;
 }
 
@@ -96,7 +96,7 @@ div.details {
     margin: 10px 10px 10px 10px;
     padding-top: 10px;
     font-size: 21px;
-    font-family: 'Helvetica', arial, serif;
+    font-family: arial, serif;
     border-top: 2px solid;
 }
 
