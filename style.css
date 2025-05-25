@@ -1,110 +1,149 @@
-#body {
+body {
     max-width: 800px;
-    text-align: left;
-    margin: auto;
-    font-family: 'Arial', arial, serif;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    background: #f7f9fb;
+    color: #222;
 }
 
-a, a:visited {
-    color: #000099;
-    text-decoration: none;
-}
-
-    a:hover {
-        color: #EE0000;
-        text-decoration: none;
-    }
-
-#topmenu a, #topmenu a:visited {
-    color: #000099;
-}
-
-    #topmenu a:hover {
-        color: #EE0000;
-    }
-
-div.header {
+header.header {
     text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e0e6ed;
 }
 
 #header-name {
-    font-family: arial, serif;
-    font-size: 60px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0;
+    color: #1a237e;
+    letter-spacing: 1px;
 }
 
 #header-title {
-    font-family: arial, serif;
+    font-size: 1.3rem;
+    color: #3949ab;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+#header-title-email {
+    font-size: 1rem;
+    color: #607d8b;
+    margin-top: 4px;
+}
+
+main {
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.title, .title2 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: #263238;
+}
+
+.title {
+    font-size: 2rem;
+    border-bottom: 1.5px solid #e0e6ed;
+    padding-bottom: 8px;
+    margin-bottom: 28px;
+}
+
+.title2 {
+    font-size: 1.3rem;
+    background: #e3eafc;
+    border-radius: 12px;
+    padding: 8px 0;
+    margin-bottom: 18px;
+}
+
+.entry {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px 0 rgba(60,72,88,0.07);
+    margin-bottom: 24px;
+    padding: 24px 28px 18px 28px;
+    border: 1px solid #e0e6ed;
+    transition: box-shadow 0.2s;
+}
+.entry:hover {
+    box-shadow: 0 4px 24px 0 rgba(60,72,88,0.13);
+}
+
+.details {
+    font-size: 1.08rem;
+    color: #374151;
     margin-top: 10px;
-    font-size: 30px;
+    line-height: 1.7;
+    border-top: none;
+    padding-top: 0;
 }
 
-div.menu {
-    margin-top: 25px;
-    font-size: 20px;
-    font-family: arial, serif;
-    text-align: center;
-}
-
-div.title {
-    font-family: arial, serif;
-    font-size: 35px;
-    margin-top: 40px;
-    text-align: center;
-}
-
-div.title2 {
-    font-family: arial, serif;
-    font-size: 20px;
-    text-align: left;
-    font-weight: bold;
-    border-radius: 20px;
-    text-align: center;
-}
-
-div.title3 {
-    font-family: arial, serif;
-    margin-top: 15px;
-    font-size: 20px;
-    text-align: left;
-}
-
-div.entry {
-    border: 2px solid darkblue;
-    border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
-    padding-top: 5px;
-}
-
-div.paragraph {
-    font-family: arial, serif;
-    font-size: 21px;
-    text-align: justify;
-    text-indent: 25px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-div.copyright {
-    font-family: arial, serif;
-    font-size: 18px;
-}
-
-div.details {
-    margin: 10px 10px 10px 10px;
-    padding-top: 10px;
-    font-size: 21px;
-    font-family: arial, serif;
-    border-top: 2px solid;
-}
-
-div.location {
+.location {
     margin-top: 4px;
     text-align: center;
+    color: #607d8b;
+    font-size: 1rem;
 }
 
-div.date {
-    font-size: 18px;
-    font-weight: lighter;
+.date {
+    font-size: 0.98rem;
+    font-weight: 400;
+    color: #90a4ae;
+    margin-right: 8px;
+}
+
+ul {
+    margin: 8px 0 8px 24px;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+a, a:visited {
+    color: #1976d2;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+a:hover {
+    color: #e53935;
+    text-decoration: underline;
+}
+
+footer.copyright {
+    text-align: center;
+    margin-top: 40px;
+    color: #b0bec5;
+    font-size: 1rem;
+    padding: 16px 0 0 0;
+    border-top: 1.5px solid #e0e6ed;
+}
+
+@media (max-width: 600px) {
+    body {
+        max-width: 100%;
+        padding: 0 8px;
+    }
+    .entry {
+        padding: 16px 8px 12px 8px;
+    }
+    main {
+        margin-top: 16px;
+    }
+    .title {
+        font-size: 1.3rem;
+    }
+    #header-name {
+        font-size: 2rem;
+    }
 }
